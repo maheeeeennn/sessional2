@@ -24,44 +24,42 @@
             <td><a onClick="onEdit(this)">Edit</a></td>
         </tr>`
     }
-</script>
-<script src="script.js"> </script>
 
-<body>
-    <table>
-        <tr>
-            <td>
-                <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
-                    <div>
-                        <label>username</label><label class="validation-error hide" id="fullNameValidationError">This
+    <body>
+        <table>
+            <tr>
+                <td>
+                    <form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+                        <div>
+                            <label>username</label><label class="validation-error hide" id="fullNameValidationError">This
                             field is required.</label>
-                        <input type="text" name="fullName" id="fullName">
+                            <input type="text" name="fullName" id="fullName">
                     </div>
-                    <div>
-                        <label>Email</label>
-                        <input type="text" name="empCode" id="empCode">
+                            <div>
+                                <label>Email</label>
+                                <input type="text" name="empCode" id="empCode">
                     </div>
-                    <div>
-                        <div class="form-action-buttons">
-                            <input type="submit" value="Submit">
+                                <div>
+                                    <div class="form-action-buttons">
+                                        <input type="submit" value="Submit">
                         </div>
                 </form>
             </td>
-            <td>
-                <table class="posts-table list table table-dark" id="list">
-                    <thead>
-                        <tr>
-                            <th>username</th>
-                            <th>Email</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                    </tbody>
-                </table>
-            </td>
+                                <td>
+                                    <table class="posts-table list table table-dark" id="list">
+                                        <thead>
+                                            <tr>
+                                                <th>username</th>
+                                                <th>Email</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                        </tbody>
+                                    </table>
+                                </td>
         </tr>
     </table>
-    <script src="script.js"></script>
+                        <script src="script.js"></script>
 </body>
 
 </html>
